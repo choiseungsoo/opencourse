@@ -1,7 +1,7 @@
 # opencourse
 오픈강좌(HTML, CSS, JAVASCRIPT)
 
-[기본 HTML 구성 - javascript, css ]<br>
+[기본 HTML 구성 - javascript, css  ]<br>
 default.html<br>
 <br>
 [테이블 tag 샘플]<br>
