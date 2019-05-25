@@ -1,5 +1,5 @@
 # opencourse
-오픈강좌(HTML, CSS, JAVASCRIPT)<br>
+세종시 오픈강좌(HTML, CSS, JAVASCRIPT)<br>
 <br>
 [에디터]<br>
 visual studio code : https://code.visualstudio.com/<br>
