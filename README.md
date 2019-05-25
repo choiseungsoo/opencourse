@@ -33,5 +33,9 @@ h1_7.html<br>
 <br>
 [list tag 샘플]<br>
 list.html<br>
+<br>
 [link tag 샘플]<br>
 a.html<br>
+<br>
+[이미지 tag 샘플]<br>
+img.html<br>
