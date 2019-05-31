@@ -14,6 +14,8 @@ W3Schools Online Web Tutorials - https://www.w3schools.com/<br>
 [기술 roadmap]<br>
 https://github.com/kamranahmedse/developer-roadmap/blob/master/readme.md
 <br>
+[html 특수문자표]<br>
+http://kor.pe.kr/util/4/charmap2.htm
 <hr>
 [기본 HTML 구성]<br>
 test.html : html 기본 틀<br>
