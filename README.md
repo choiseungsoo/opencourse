@@ -10,6 +10,7 @@ http://tadaktadak.co.kr/taja/jari.html?type=0&keyboardtype=smallen<br>
 <br>
 태그사용율 통계 :  http://me2.do/GaYXBTA7<br>
 W3Schools Online Web Tutorials - https://www.w3schools.com/<br>
+태그목록 : https://www.w3schools.com/tags/default.asp<br>
 <br>
 [기술 roadmap]<br>
 https://github.com/kamranahmedse/developer-roadmap/blob/master/readme.md<br>
