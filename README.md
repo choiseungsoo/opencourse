@@ -18,7 +18,8 @@ https://github.com/kamranahmedse/developer-roadmap/blob/master/readme.md<br>
 [html 특수문자표]<br>
 http://kor.pe.kr/util/4/charmap2.htm<br>
 <hr>
-<h1>[기본 HTML 구성]</h1><br>
+<h3>[HTML]</h3>
+[html 구성]<br>
 test.html : html 기본 틀<br>
 default.html : javascript, css 사용 기본 틀<br>
 <br>
@@ -44,7 +45,7 @@ a.html<br>
 [이미지 tag 샘플]<br>
 img.html<br>
 <hr>
-<h1>[css 샘플]</h1><br><br>
+<h3>[css 샘플]</h3>
 [css ]<br>
 css1.html<br>
 css2.html<br>
