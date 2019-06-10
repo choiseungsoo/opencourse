@@ -38,3 +38,13 @@ p#right { /* p 태그중 id가 right인것 */
 p.center { /* p 태그중 class가 center인것 */
 	text-align: center;	
 }
+
+/*************************
+margin, padding 
+***************************/
+#div_margin {
+  width: 300px;
+  border: 20px solid green;
+  padding: 50px;
+  margin: 20px;
+}
