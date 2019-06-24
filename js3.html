@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>타이틀</title>
+	<script>
+		function setTitle(){
+			document.title = '바뀐 타이틀'
+		}
+		
+		function changeDiv(){
+			var mydiv = document.getElementById('mydiv');
+			mydiv.innerHTML = "바뀐 글입니다."
+		}
+	</script>
+  </head>
+  <body>
+	<button onclick="setTitle();">Title를 세팅합니다.</button><br><br>
+	<button onclick="changeDiv();">글을 바꿉니다.</button><br><br>
+	<div id="mydiv">이 글은 바뀝니다.</div>
+	</div>	
+  </body>
+</html>
