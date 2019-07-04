@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>타이틀</title>
+	<script>
+		function myCreateElement(){ 
+			var newDiv = document.createElement("div"); 
+			var newContent = document.createTextNode("환영합니다!"); 
+			newDiv.appendChild(newContent); 
+
+			var currentDiv = document.getElementById("div1"); 
+			document.body.insertBefore(newDiv, currentDiv); 		  
+		}
+	</script>
+  </head>
+  <body>
+	<button onclick="myCreateElement();">내용변경</button>
+	<div id="div1">위의 텍스트는 동적으로 추가했습니다.</div>
+  </body>
+</html>

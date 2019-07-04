@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+	</title>
+	<script>
+		function doIf(){
+			var a = 1;
+			var b = 2;
+			
+			if(a > b){
+				console.log('a : ', a);
+			}else{
+				console.log('b : ', b);
+			}
+		}
+		
+		function doFor(){
+			for(var i = 0; i < 10; i++){
+				console.log('i : ', i);
+			}
+		}
+		
+		function doWhile(){
+			var i = 0;
+			while(i < 5){
+				console.log('i : ', i);
+				i++;
+			}
+		}
+	</script>
+	
+  </head>
+  <body>
+	<button onclick="doIf();">if 수행</button>
+	
+	<button onclick="doFor();">for 수행</button>
+	
+	<button onclick="doWhile();">while 수행</button>
+	
+  </body>
+</html>
