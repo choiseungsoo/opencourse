@@ -60,6 +60,7 @@ default.css<br>
 자바스크립트란? : https://namu.wiki/w/JavaScript?from=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8 <br>
 에어비앤비 자바스크립트 가이드 : https://github.com/tipjs/javascript-style-guide<br>
 <br>
+자바 스크립트 문법 : https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals<br>
 DOM Architecture : https://www.tutorialspoint.com/javascript/javascript_html_dom.htm<br>
 자바스크립트 내장객체 : http://www.silverwolf.co.kr/javascript/5406<br>
 <br>
