@@ -4,7 +4,7 @@
     <title>
 	</title>
 	<script>
-		
+		// continue, break 같이 설명할것.
 		function doIf(){
 			var a = 1;
 			var b = 2;
@@ -37,6 +37,21 @@
 			  i++;
 			} while ( i < 10 )
 		}
+		
+		function doSwitch(val){
+			switch (val) {
+			  case 'A':
+				console.log('doSwitch : ' + 'A');
+				break;
+			  case 'B':
+				console.log('doSwitch : ' + 'B');
+				break;
+			  default:
+				console.log('doSwitch : ' + 'default');
+				break;
+			}
+		}
+
 	</script>
 	
   </head>
@@ -48,6 +63,8 @@
 	<button onclick="doWhile();">while 수행</button>
 	
 	<button onclick="doDoWhile();">do while 수행</button>
+	
+	<button onclick="doSwitch('B');">do Switch 수행</button>
 	
   </body>
 </html>
