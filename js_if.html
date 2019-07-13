@@ -6,30 +6,42 @@
 	<script>
 		// continue, break 같이 설명할것.
 		function doIf(){
-			var age = document.getElementById("age").value;
+			var inputBoxAge = document.getElementById("age");
 			
-			//var age2 = (age > 19) ? "성년" : "미성년";
+			var age = inputBoxAge.value;
 			
+			var age2 = (isNaN(age)) ? "문자" : "숫자";
+			// 삼항연산자(조건) ? 참일때 : 거짓일때
+			console.log(age2);
 			// 숫자 체크
+			
 			if(isNaN(age) == true) {
-				alert("입력된 값 : " + age + " / 문자");
+				alert("숫자만 입력하실 수 있습니다.");
+				inputBoxAge.value = "";
+				inputBoxAge.focus();
 				return;
-			} else {
-				alert("입력된 값 : " + age + " / 숫자");
+			}else{
 			}
 			
-			if(age < 20){
+			if(age <= 20 ){
 				console.log('미성년자입니다.');
+			}else if(age > 20 && age <= 40){
+				console.log('청년입니다');
+			}else if(age > 40 && age <= 60){
+				console.log('중년입니다');
 			}else{
-				console.log('어른입니다');
+				console.log('노인입니다.');
 			}
+			
+			
 		}
 		
 	</script>
 	
   </head>
   <body>
-	나이를 입력하세요 : <input type="text" id="age"></input><button onclick="doIf();">확인</button>
+	나이를 입력하세요 : <input type="text" id="age"></input>
+	<button onclick="doIf();">확인</button>
 	
 	
   </body>
