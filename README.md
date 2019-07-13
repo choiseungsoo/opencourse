@@ -67,7 +67,13 @@ default.css<br>
 자바 스크립트 문법 : https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals<br>
 DOM Architecture : https://www.tutorialspoint.com/javascript/javascript_html_dom.htm<br>
 자바스크립트 내장객체 : http://www.silverwolf.co.kr/javascript/5406<br>
+<br>변수, 상수 선언
+<br>함수 선언
+<br>자료형
+<br>연산자(++, --, ><=, etc)
+<br>흐름제어구조(if, for, while, while-do, switch, etc)
 <br>
+
 js1.html<br>
 js2.html<br>
 js3.html<br>
