@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+	</title>
+	<script>
+		function doSwitch(){
+			var number = document.getElementById("number").value;
+			switch (number) {
+			  case 'A':
+			  case 'a':
+				console.log('성적은 : ' + '수');
+				break;
+			  case 'B':
+				console.log('성적은 : ' + '우');
+				break;
+			  default:
+				console.log('성적은 : ' + '기본입니다.');
+				break;
+			}
+		}
+	</script>
+	
+  </head>
+  <body>	 
+  <input type="text" id="number"></input>   
+	<button onclick="doSwitch();">성적 확인</button>
+	
+	
+  </body>
+</html>

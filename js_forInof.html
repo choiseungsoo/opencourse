@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+	</title>
+	<script>
+		// continue, break 같이 설명할것.
+		function doForIn(){
+			var coffees = ["French Roast", "Colombian", "Kona"];
+			
+			console.log(coffees[0]);
+			console.log(coffees[1]);
+			console.log(coffees[2]);
+			
+			console.log("=======================");
+			for (var index in coffees) {
+				console.log("커피종류는 ", coffees[index]);
+			}
+			
+			console.log("=======================");
+			for (var value of coffees) {
+				console.log("커피종류는 ", value);
+			}
+		}
+		
+	</script>
+	
+  </head>
+  <body>
+	<button onclick="doForIn();">커피종류는?</button>
+	
+	
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+	</title>
+	<script>
+		function doFor(){
+			var number = document.getElementById("number").value;
+		
+			var sum = 0;
+			for(var i = 1; i <= number; i++){
+				sum = sum + i;
+			}
+			
+			console.log('합계는 ' + sum);
+		}
+	</script>
+	
+  </head>
+  <body>
+	1부터 <input type="text" id="number"></input>까지 모두 더하시오. 
+	<button onclick="doFor();">확인</button>
+	
+	
+  </body>
+</html>
