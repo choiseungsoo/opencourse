@@ -72,7 +72,8 @@ DOM Architecture : https://www.tutorialspoint.com/javascript/javascript_html_dom
 <br>자료형
 <br>연산자(++, --, ><=, etc)
 <br>흐름제어구조(if, for, while, while-do, switch, etc)
-<br>
+<br>라이브러리
+<br>기본 내장객체
 
 js1.html<br>
 js2.html<br>
