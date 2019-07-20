@@ -4,11 +4,22 @@
     <title>
 	</title>
 	<script>
+		
+		
 		function doWhile(){
-			
 			var number = document.getElementById("number").value;
+			if(number.trim() == "" || number == null || number == undefined) {
+				alert('값이 비어있습니다. ' + number);
+				return;
+			}
+			
+			if(isNaN(number)){
+				alert('숫자만 입력하세요 : ' + number);
+				return;
+			}
+			
 			while(number < 5){
-				console.log('number : ', number);
+				console.log('number : ' + number);
 				number++;
 			}
 			
