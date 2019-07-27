@@ -70,6 +70,12 @@ DOM Architecture : https://www.tutorialspoint.com/javascript/javascript_html_dom
 자바스크립트 내장함수 : http://blog.naver.com/PostView.nhn?blogId=seogi1004&logNo=110078496014&categoryNo=72&viewDate=&currentPage=1&listtype=0<br>
 자바스브립트 연산자 : https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EB%85%BC%EB%A6%AC_%EC%97%B0%EC%82%B0%EC%9E%90
 <br>
+<br>
+vue.js : https://kr.vuejs.org/v2/guide/index.html<br>
+jquery : https://jquery.com/<br>
+d3.js : https://d3js.org/<br>
+node.js : https://nodejs.org/ko/<br>
+<br>
 <br>변수, 상수 선언
 <br>함수 선언
 <br>자료형
