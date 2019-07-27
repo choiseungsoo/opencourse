@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <!-- vue.js CDN Link -->
+        <script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>    
+    </head>
+    <body>
+		<div id="app">
+			<input v-model="message" placeholder="여기를 수정해보세요">
+			<p>메시지: {{ message }}</p>
+		</div>
+        
+    </body>
+    
+    <!-- vue.js 로직 -->
+    <script>
+        var vm = new Vue({
+            el : '#app',
+            data : {
+                isShow : true,
+				message : ""
+            }
+        });
+    </script>
+</html>
